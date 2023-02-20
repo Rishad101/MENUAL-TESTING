@@ -1,0 +1,3597 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,comment,priority,severity,automation,type,tags,step_comments,case_parameter
+1,login page - Valid,login,3,Shihab Hossain Rishad,22770,Passed,1/5/2023 5:57,"1. Go to bank User Id and password create page
+2. Enter Email Address
+3. Go to login page
+4. Enter Genarate User ID
+5. Enter Genarate Password
+6. Enter login
+","1. http//gtplbank.com/login
+2. abd@gmail.com
+3. N/A
+4. 12345
+5. 11111
+6. N/A
+","1. page will display
+2. User ID and Password will create
+3. Empty Field Display
+4. System Allow Input
+5. System Allow Input
+6. System will login
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. ",
+2,login page - Invalid User ID,login,3,Shihab Hossain Rishad,43000,Failed,1/5/2023 5:58,"1. Go to bank User Id and password create page
+2. Enter Email Address
+3. Go to login page
+4. Enter Genarate User ID
+5. Enter Genarate Password
+6. Enter Login
+","1. http//gtplbank.com/login
+2. abd@gmail.com
+3. N/A
+4. 
+5. 11111
+6. N/A
+","1. page will display
+2. User ID and Password will create
+3. Empty Field Display
+4. 
+5. System Allow Input
+6. System will not login, System Error
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Untested
+6. Untested
+",User Id Failed,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. ",
+3,login page - Invalid Password,login,3,Shihab Hossain Rishad,80000,Failed,1/5/2023 6:00,"1. Go to bank User Id and password create page
+2. Enter Email Address
+3. Go to login page
+4. Enter Genarate User ID
+5. Enter Genarate Password
+6. Enter Login
+","1. http//gtplbank.com/login
+2. abd@gmail.com
+3. N/A
+4. 
+5. 11111
+6. N/A
+","1. page will display
+2. User ID and Password will create
+3. Empty Field Display
+4. System Allow Input
+5. 
+6. System will not login, System Error
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed
+6. Untested
+",User id failed,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. ",
+4,login page - Reset,login,3,Shihab Hossain Rishad,8370,Passed,1/5/2023 6:00,"1. Go to bank User Id and password create page
+2. Enter Email Address
+3. Go to login page
+4. Enter Genarate User ID
+5. Enter Genarate Password
+6. Enter Reset
+","1. http//gtplbank.com/login
+2. abd@gmail.com
+3. N/A
+4. 
+5. 
+6. N/A
+","1. page will display
+2. User ID and Password will create
+3. Empty Field Display
+4. System Allow Input
+5. System Allow Input
+6. System will Reset
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. ",
+5,New Customer - All Valid,New Customer,1,Shihab Hossain Rishad,16880,Passed,1/5/2023 6:00,"1. GTPL Bank new Account Page
+2. Customer Name
+3. Gender
+4. Bate of Birth
+5. Address
+6. City
+7. ~~State~~
+8. Pin
+9. Mobile Number
+10. Email Id
+11. Password
+12. Enter Submit
+","1. http//gtplbank.com.newaccount
+2. Customer Full Name
+3. Male / female
+4. 00-00-00
+5. Customer Permanent Address
+6. Spicified where Customer live
+7. Spicified where Customer live
+8. 123456
+9. 01\*\*\*\*\*\*\*\*
+10. 123@gmail.com
+11. 123456789
+12. N/A
+","1. New account page
+2. Show After Account Create
+3. Show After Account Create
+4. Show After Account Create
+5. Show After Account Create
+6. Show After Account Create
+7. Show After Account Create
+8. hide Informatinon
+9. Show After Account Create
+10. Show After Account Create
+11. Show After Account Create
+12. System will create New Account
+","1. Passed
+2. Passed
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+11. Untested
+12. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. ",
+6,New Customer - All Invalid,New Customer,1,Shihab Hossain Rishad,4000,Failed,1/5/2023 6:01,"1. GTPL Bank new Account Page
+2. Customer Name
+3. Gender
+4. Bate of Birth
+5. Address
+6. City
+7. ~~State~~
+8. Pin
+9. Mobile Number
+10. Email Id
+11. password
+12. Enter Submit
+","1. http//gtplbank.com.newaccount
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 123456789
+12. N/A
+","1. New account page
+2. Show After Account Create
+3. Show After Account Create
+4. Show After Account Create
+5. Show After Account Create
+6. Show After Account Create
+7. Show After Account Create
+8. hide Informatinon
+9. Show After Account Create
+10. Show After Account Create
+11. Ahow After Account Create
+12. System will Create a new Account
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+11. Untested
+12. Untested
+",All Invalid,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. ",
+7,New Customer - Reset,New Customer,1,Shihab Hossain Rishad,24960,Passed,1/5/2023 6:01,"1. GTPL Bank new Account Page
+2. Customer Name
+3. Gender
+4. Bate of Birth
+5. Address
+6. City
+7. ~~State~~
+8. Pin
+9. Mobile Number
+10. Email Id
+11. Password
+12. Enter Reset
+","1. http//gtplbank.com.newaccount
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 123456789
+12. N/A
+","1. New account page
+2. Show After Account Create
+3. Show After Account Create
+4. Show After Account Create
+5. Show After Account Create
+6. Show After Account Create
+7. Show After Account Create
+8. hide Informatinon
+9. Show After Account Create
+10. Show After Account Create
+11. Show After Account Create
+12. System will successfully reset
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+11. Untested
+12. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. ",
+8,Edit Customer login page -All valid,Edit Customer,4,Shihab Hossain Rishad,7760,Passed,1/5/2023 6:02,"1. Customer ID
+2. Enter Submit
+","1. 123456
+2. N/A
+","1. System Allow input
+2. Customer Edit Page will display
+","1. Untested
+2. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. ",
+9,Edit Customer login page -All Invalid,Edit Customer,4,Shihab Hossain Rishad,2240,Passed,1/5/2023 6:02,"1. Customer ID
+2. Enter submit
+","1. 
+2. N/A
+","1. System Allow input
+2. System Will Error
+","1. Untested
+2. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. ",
+10,Edit Customer login page - Reset,Edit Customer,4,Shihab Hossain Rishad,3339,Passed,1/5/2023 6:02,"1. Customer ID
+2. Enter Reset
+","1. 123456
+2. N/A
+","1. System Allow input
+2. System will Reset
+","1. Untested
+2. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. ",
+11,Edit Customer - All valid,Edit Customer,4,Shihab Hossain Rishad,5045,Passed,1/5/2023 6:02,"1. Customer Name
+2. Gender
+3. Date of Birth
+4. Address
+5. City
+6. State
+7. Pin
+8. Mobile Number
+9. Email
+10. Enter submit
+","1. aaa
+2. Male
+3. 02/02/2000
+4. abbbba
+5. Dhaka
+6. aaa
+7. 11111
+8. 01\*\*\*\*\*\*\*\*
+9. aaa@gmail.com
+10. N/A
+","1. Name will Change
+2. Gender will Change
+3. Date of Birth will change
+4. Address will change
+5. City will change
+6. State will change
+7. Pin will change
+8. Mobile number will change
+9. Email will change
+10. System Will change Data
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+",,Medium,Normal,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ",
+12,Edit Customer - All Invalid,Edit Customer,4,Shihab Hossain Rishad,1158,Passed,1/5/2023 6:02,"1. Customer Name
+2. Gender
+3. Date of Birth
+4. Address
+5. City
+6. State
+7. Pin
+8. Mobile Number
+9. Email
+10. Enter submit
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. N/A
+","1. No Information
+2. No Information
+3. No Information
+4. No Information
+5. No Information
+6. No Information
+7. No Information
+8. No Information
+9. No Information
+10. System will show error for no indormation
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+",,Medium,Normal,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ",
+13,Edit Customer - Invalid for character and special character,Edit Customer,4,Shihab Hossain Rishad,25000,Failed,1/5/2023 6:03,"1. Customer Name
+2. Gender
+3. Date of Birth
+4. Address
+5. City
+6. State
+7. Pin
+8. Mobile Number
+9. Email
+10. Enter submit
+","1. 1111@//
+2. 121
+3. =/=/=
+4. &hfhfh%
+5. $44$
+6. @@@
+7. ###
+8. !!!!
+9. (((((((
+10. N/A
+","1. System Inputs
+2. System Inputs
+3. System Inputs
+4. System Inputs
+5. System Inputs
+6. System Inputs
+7. System Inputs
+8. System Inputs
+9. System Inputs
+10. System will show error for character and Special character
+","1. Failed
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+",for special character,Medium,Normal,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ",
+14,Edit Customer - Invalid for character and special character,Edit Customer,4,Shihab Hossain Rishad,0,Retest,1/5/2023 6:03,"1. Customer Name
+2. Gender
+3. Date of Birth
+4. Address
+5. City
+6. State
+7. Pin
+8. Mobile Number
+9. Email
+10. Enter submit
+","1. 1111@//
+2. 121
+3. =/=/=
+4. &hfhfh%
+5. $44$
+6. @@@
+7. ###
+8. !!!!
+9. (((((((
+10. N/A
+","1. System Inputs
+2. System Inputs
+3. System Inputs
+4. System Inputs
+5. System Inputs
+6. System Inputs
+7. System Inputs
+8. System Inputs
+9. System Inputs
+10. System will show error for character and Special character
+",,,Medium,Normal,To be automated,Functional,,,
+15,Edit Customer - Invalid for character and special character,Edit Customer,4,Shihab Hossain Rishad,24000,Invalid,1/5/2023 6:04,"1. Customer Name
+2. Gender
+3. Date of Birth
+4. Address
+5. City
+6. State
+7. Pin
+8. Mobile Number
+9. Email
+10. Enter submit
+","1. 1111@//
+2. 121
+3. =/=/=
+4. &hfhfh%
+5. $44$
+6. @@@
+7. ###
+8. !!!!
+9. (((((((
+10. N/A
+","1. System Inputs
+2. System Inputs
+3. System Inputs
+4. System Inputs
+5. System Inputs
+6. System Inputs
+7. System Inputs
+8. System Inputs
+9. System Inputs
+10. System will show error for character and Special character
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+",character and special character,Medium,Normal,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ",
+16,Edit Customer - Invalid for same email address in system,Edit Customer,4,Shihab Hossain Rishad,200000,Blocked,1/5/2023 6:06,"1. Customer ID
+2. Customer Name
+3. Gender
+4. Date of Birth
+5. Address
+6. City
+7. State
+8. Pin
+9. Mobile Number
+10. Email
+11. Enter submit
+","1. 123
+2. aaa
+3. Male
+4. 02/02/2000
+5. abbbba
+6. Dhaka
+7. aaa
+8. 11111
+9. 01\*\*\*\*\*\*\*\*
+10. aaa@gmail.com
+11. N/A
+","1. customer ID
+2. Name will Change
+3. Gender will Change
+4. Date of Birth will change
+5. Address will change
+6. City will change
+7. State will change
+8. Pin will change
+9. Mobile number will change
+10. Already Exist
+11. System Will show error for email
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Untested
+11. Blocked
+",system will block,Medium,Normal,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. ",
+17,Edit Customer - Invalid for Customer ID,Edit Customer,4,Shihab Hossain Rishad,75000,Invalid,1/5/2023 6:09,"1. Customer ID
+2. Customer Name
+3. Gender
+4. Date of Birth
+5. Address
+6. City
+7. State
+8. Pin
+9. Mobile Number
+10. Email
+11. Enter submit
+","1. 123
+2. aaa
+3. Male
+4. 02/02/2000
+5. abbbba
+6. Dhaka
+7. aaa
+8. 11111
+9. 01\*\*\*\*\*\*\*\*
+10. aaa@gmail.com
+11. N/A
+","1. invalid customer id
+2. Name will Change
+3. Gender will Change
+4. Date of Birth will change
+5. Address will change
+6. City will change
+7. State will change
+8. Pin will change
+9. Mobile number will change
+10. Email will change
+11. System Will show error for customer invalid id
+","1. Failed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+11. Failed
+",In valid for customer id,Medium,Normal,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. ",
+18,Edit Customer - Reset,Edit Customer,4,Shihab Hossain Rishad,6170,Passed,1/5/2023 6:09,"1. Customer ID
+2. Customer Name
+3. Gender
+4. Date of Birth
+5. Address
+6. City
+7. State
+8. Pin
+9. Mobile Number
+10. Email
+11. Enter Reset
+","1. 123456
+2. aaa
+3. Male
+4. 02/02/2000
+5. abbbba
+6. Dhaka
+7. aaa
+8. 11111
+9. 01\*\*\*\*\*\*\*\*
+10. aaa@gmail.com
+11. N/A
+","1. An id for enter the account
+2. Name will Change
+3. Gender will Change
+4. Date of Birth will change
+5. Address will change
+6. City will change
+7. State will change
+8. Pin will change
+9. Mobile number will change
+10. Email will change
+11. System Will Erase All data
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+11. Untested
+",,Medium,Normal,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. ",
+19,Delete Customer - (Valid) No Active Savings Account,Delete Customer,5,Shihab Hossain Rishad,10025,Passed,1/5/2023 6:09,"1. Customer ID
+2. No Active Savings Account
+3. Enter Submit
+","1. 123456
+2. 22222
+3. N/A
+","1. System Input
+2. Unused Account
+3. System Will Delete Customer
+","1. Untested
+2. Untested
+3. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. ",
+20,Delete Customer - (Valid) No Active Current Account,Delete Customer,5,Shihab Hossain Rishad,2864,Passed,1/5/2023 6:09,"1. Customer ID
+2. No Active Current Account
+3. Enter Submit
+","1. 123456
+2. 22222
+3. N/A
+","1. System Input
+2. Unused Account
+3. System Will Delete Customer
+","1. Untested
+2. Untested
+3. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. ",
+21,Delete Customer - (Valid) Manager Can Delete,Delete Customer,5,Shihab Hossain Rishad,21246,Passed,1/5/2023 6:09,"1. Manager
+2. Customer ID
+3. No Active Current Account
+4. Enter Submit
+","1. Id-1111 pass- 1478
+2. 123456
+3. 22222
+4. N/A
+","1. Manager can remove
+2. System Input
+3. Unused Account
+4. System Will Delete Customer
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. ",
+22,Delete Customer -  Invalid,Delete Customer,5,Shihab Hossain Rishad,82000,Failed,1/5/2023 6:11,"1. Manager
+2. No Active Current And Savings Account
+3. Special Character and Space
+4. Customer ID
+5. Enter Submit
+","1. 
+2. 
+3. @#$%^
+4. 
+5. N/A
+","1. Manager Can Delete
+2. Unused Account
+3. System Input
+4. System Input
+5. System Will Error
+","1. Passed
+2. Failed
+3. Failed
+4. Failed
+5. Failed
+",All invalid,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+23,Delete Customer - Reset,Delete Customer,5,Shihab Hossain Rishad,4579,Passed,1/5/2023 6:11,"1. Manager
+2. Customer ID
+3. No Active Current Account
+4. Enter Reset
+","1. Id-1111 pass- 1478
+2. 123456
+3. 22222
+4. N/A
+","1. Manager can remove
+2. System Input
+3. Unused Account
+4. System Will Reset All Data
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. ",
+24,Create Account for All Valid - Savings,New Account,6,Shihab Hossain Rishad,7332,Passed,1/5/2023 6:11,"1. Go to GTPL Bank Login Page
+2. Login As Manager
+3. Go to new Account
+4. Enter Customer Id
+5. Enter Account Type
+6. Enter Initial Deposit
+7. Click Submit
+","1. http://gtpl-bank.com/login
+2. Manager ID- 144154 , pass - 11111
+3. N/A
+4. 123456
+5. Savings
+6. 500
+7. N/A
+","1. Login page will Display
+2. Dashboard Display
+3. New Account Page Will Display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. Systen Successfully create a new Account
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+25,Create Account for All Valid - Current,New Account,6,Shihab Hossain Rishad,1055,Passed,1/5/2023 6:12,"1. Go to GTPL Bank Login Page
+2. Login As Manager
+3. Go to new Account
+4. Enter Customer Id
+5. Enter Account Type
+6. Enter Initial Deposit
+7. Click Submit
+","1. http://gtpl-bank.com/login
+2. Manager ID- 144154 , pass - 11111
+3. N/A
+4. 123456
+5. Current
+6. 500
+7. N/A
+","1. Login page will Display
+2. Dashboard Display
+3. New Account Page Will Display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. Systen Successfully create a new Account
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+26,Create Account - Invalid Deposit,New Account,6,Shihab Hossain Rishad,48000,Failed,1/5/2023 6:13,"1. Go to GTPL Bank Login Page
+2. Login As Manager
+3. Go to new Account
+4. Enter Customer Id
+5. Account Type
+6. Enter Initial Deposit
+7. Click Submit
+","1. http://gtpl-bank.com/login
+2. Manager ID- 144154 , pass - 11111
+3. N/A
+4. 123456
+5. Current
+6. 499
+7. N/A
+","1. Login page will Display
+2. Dashboard Display
+3. New Account Page Will Display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. Systen Display an error massage for Account Type
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Failed
+7. Failed
+",Failed for Deposit,Medium,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+27,Create Account - Invalid Account Type,New Account,6,Shihab Hossain Rishad,40000,Failed,1/5/2023 6:14,"1. Go to GTPL Bank Login Page
+2. Login As Manager
+3. Go to new Account
+4. Enter Customer Id
+5. Keep Account Type Blank
+6. Enter Initial Deposit
+7. Click Submit
+","1. http://gtpl-bank.com/login
+2. Manager ID- 144154 , pass - 11111
+3. N/A
+4. 123456
+5. 
+6. 501
+7. N/A
+","1. Login page will Display
+2. Dashboard Display
+3. New Account Page Will Display
+4. System Allow Input
+5. 
+6. System Allow Input
+7. Systen Display an error massage for Account Type
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed
+6. Passed
+7. Failed
+",Failed for account type,Not set,Normal,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+28,Create Account - Invalid Account Type and Deposit,New Account,6,Shihab Hossain Rishad,29000,Failed,1/5/2023 6:15,"1. Go to GTPL Bank Login Page
+2. Login As Manager
+3. Go to new Account
+4. Enter Customer Id
+5. Keep Account Type Blank
+6. Enter Initial Deposit
+7. Click Submit
+","1. http://gtpl-bank.com/login
+2. Manager ID- 144154 , pass - 11111
+3. N/A
+4. 123456
+5. 
+6. 499
+7. N/A
+","1. Login page will Display
+2. Dashboard Display
+3. New Account Page Will Display
+4. System Allow Input
+5. 
+6. System Allow Input
+7. Systen Display an error massage for Account Type and deposit
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed
+6. Failed
+7. Failed
+",Failed for account type and deposit,Medium,Normal,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+29,Create Account - Invalid Customer ID,New Account,6,Shihab Hossain Rishad,16000,Failed,1/5/2023 6:16,"1. Go to GTPL Bank Login Page
+2. Login As Manager
+3. Go to new Account
+4. Enter Customer Id
+5. Keep Account Type Blank
+6. Enter Initial Deposit
+7. Click Submit
+","1. http://gtpl-bank.com/login
+2. Manager ID- 144154 , pass - 11111
+3. N/A
+4. gdsfghghghgd
+5. Savings
+6. 500
+7. N/A
+","1. Login page will Display
+2. Dashboard Display
+3. New Account Page Will Display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System Display an Error Massage for customer Id
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Passed
+6. Passed
+7. Failed
+",Failed for customer id,Medium,Normal,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+30,Create Account - Invalid Customer Id and initial Deposit,New Account,6,Shihab Hossain Rishad,22000,Failed,1/5/2023 6:17,"1. Go to GTPL Bank Login Page
+2. Login As Manager
+3. Go to new Account
+4. Enter Customer Id
+5. Account Type
+6. Enter Initial Deposit
+7. Click Submit
+","1. http://gtpl-bank.com/login
+2. Manager ID- 144154 , pass - 11111
+3. N/A
+4. @#$%^
+5. Savings
+6. -100
+7. N/A
+","1. Login page will Display
+2. Dashboard Display
+3. New Account Page Will Display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System Display an Error Massage for customer Id or Initial Deposit
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Passed
+6. Failed
+7. Failed
+",Failed for customer id and initial deposit,Medium,Normal,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+31,Create Account - Invalid Customer Id and Account Type,New Account,6,Shihab Hossain Rishad,60000,Failed,1/5/2023 6:19,"1. Go to GTPL Bank Login Page
+2. Login As Manager
+3. Go to new Account
+4. Enter Customer Id
+5. Account Type
+6. Enter Initial Deposit
+7. Click Submit
+","1. http://gtpl-bank.com/login
+2. Manager ID- 144154 , pass - 11111
+3. N/A
+4. Space 1123355aaaa
+5. Savings
+6. 1000
+7. N/A
+","1. Login page will Display
+2. Dashboard Display
+3. New Account Page Will Display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System Display an Error Massage for customer Id or Account Type
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Failed
+6. Passed
+7. Failed
+",Failed for customer id and account type,Medium,Normal,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+32,Create Account - Invalid Customer Id and Account Type and Initial Deposit,New Account,6,Shihab Hossain Rishad,30000,Failed,1/5/2023 6:20,"1. Go to GTPL Bank Login Page
+2. Login As Manager
+3. Go to new Account
+4. Enter Customer Id
+5. keep Account Type Blank
+6. keep Initial Deposit Blank
+7. Click Submit
+","1. http://gtpl-bank.com/login
+2. Manager ID- 144154 , pass - 11111
+3. N/A
+4. Space 1123355aaaa
+5. 
+6. 
+7. N/A
+","1. Login page will Display
+2. Dashboard Display
+3. New Account Page Will Display
+4. System Allow Input
+5. 
+6. 
+7. System Display an Error Massage for customer Id or Account Type or Initial Deposit
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Failed
+6. Failed
+7. Failed
+",Failed for customer id and account type and initial deposit,Medium,Normal,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+33,Create Account Reset,New Account,6,Shihab Hossain Rishad,3336,Passed,1/5/2023 6:20,"1. Go to GTPL Bank Login Page
+2. Login As Manager
+3. Go to new Account
+4. Enter Customer Id
+5. Enter Account Type
+6. Enter Initial Deposit
+7. Click Reset
+","1. http://gtpl-bank.com/login
+2. Manager ID- 144154 , pass - 11111
+3. N/A
+4. 123456
+5. Savings
+6. 500
+7. N/A
+","1. Login page will Display
+2. Dashboard Display
+3. New Account Page Will Display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System will clear all data
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+34,Delete Account - Valid,Delete Account,7,Shihab Hossain Rishad,10626,Passed,1/5/2023 6:20,"1. Login As Manager
+2. Customer ID
+3. Enter Submit
+","1. Manager ID- 123456 , pass- 7894
+2. 11111
+3. N/A
+","1. Dashboard Display
+2. System Allow Input
+3. System Will Delete Account
+","1. Untested
+2. Untested
+3. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. ",
+35,Delete Account - Invalid for manager ID and Password,Delete Account,7,Shihab Hossain Rishad,21000,Invalid,1/5/2023 6:21,"1. Login As Manager
+2. Customer ID
+3. Enter Submit
+","1. 
+2. 11111
+3. N/A
+","1. 
+2. System Allow Input
+3. System Will show error massage for manager
+","1. Failed
+2. Passed
+3. Failed
+",invalid for manager id and password,High,Major,To be automated,Functional,,"1. 
+2. 
+3. ",
+36,Delete Account - Invalid for Customer ID,Delete Account,7,Shihab Hossain Rishad,14000,Failed,1/5/2023 6:22,"1. Login As Manager
+2. Customer ID
+3. Enter Submit
+","1. Manager ID- 123456 , pass- 7894
+2. 
+3. N/A
+","1. Dashboard Display
+2. 
+3. System Will show Error massage for Customer id
+","1. Passed
+2. Failed
+3. Failed
+",failed for customer id,High,Major,To be automated,Functional,,"1. 
+2. 
+3. ",
+37,Delete Account - Invalid for Customer Id Special caracter and space,Delete Account,7,Shihab Hossain Rishad,18000,Failed,1/5/2023 6:23,"1. Login As Manager
+2. Customer ID
+3. Enter Submit
+","1. Manager ID- 123456 , pass- 7894
+2. @#$% Space
+3. N/A
+","1. Dashboard Display
+2. System Allow Input
+3. System Will Show Error massage for Customer ID
+","1. Passed
+2. Failed
+3. Failed
+","failed for vustomer id , password , special character , space",High,Major,To be automated,Functional,,"1. 
+2. 
+3. ",
+38,Delete Account - Reset,Delete Account,7,Shihab Hossain Rishad,3924,Passed,1/5/2023 6:23,"1. Login As Manager
+2. Customer ID
+3. Enter Reset
+","1. Manager ID- 123456 , pass- 7894
+2. 11111
+3. N/A
+","1. Dashboard Display
+2. System Allow Input
+3. System Will reset All filled data
+","1. Untested
+2. Untested
+3. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. ",
+39,Deposit for all valid,Deposit,8,Shihab Hossain Rishad,11475,Passed,1/5/2023 6:23,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Diposit page
+4. Account Number
+5. Amount Diposit
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. 1111
+5. 500
+6. Five Hundred Taka Deposit
+7. N/A
+","1. page display
+2. Dashboard display
+3. Diposit page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System will Diposit money
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+40,Deposit for all Invalid,Deposit,8,Shihab Hossain Rishad,18000,Failed,1/5/2023 6:24,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Diposit page
+4. Account Number
+5. Amount Diposit
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. 
+3. 
+4. 
+5. 
+6. 
+7. N/A
+","1. page display
+2. 
+3. 
+4. 
+5. 
+6. 
+7. System Will Not Submit
+","1. Passed
+2. Failed
+3. Failed
+4. Failed
+5. Failed
+6. Failed
+7. Failed
+",all data invalid,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+41,Deposit Invalid for manager,Deposit,8,Shihab Hossain Rishad,20000,Invalid,1/5/2023 6:25,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Diposit page
+4. Account Number
+5. Amount Diposit
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. 
+3. N/A
+4. 1111
+5. 500
+6. Five Hundred Taka Deposit
+7. N/A
+","1. page display
+2. 
+3. Diposit page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System will not Accept for manager Invalid
+","1. Passed
+2. Failed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Failed
+",invalid for manager,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+42,Deposit Invalid for Discription,Deposit,8,Shihab Hossain Rishad,30000,Failed,1/5/2023 6:26,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Diposit page
+4. Account Number
+5. Amount Diposit
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. 1111
+5. 500
+6. 200 Taka Deposit
+7. N/A
+","1. page display
+2. Dashboard display
+3. Diposit page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System will Show an Error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Failed
+7. Failed
+",failed for discription,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+43,Deposit Invalid for Amount,Deposit,8,Shihab Hossain Rishad,26000,Failed,1/5/2023 6:27,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Diposit page
+4. Account Number
+5. Amount Diposit
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. 1111
+5. 
+6. 500 Taka Deposit
+7. N/A
+","1. page display
+2. Dashboard display
+3. Diposit page will display
+4. System Allow Input
+5. 
+6. System Allow Input
+7. System will Show an Error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed
+6. Passed
+7. Failed
+",failed for ammount,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+44,Deposit Invalid for Amount and Driscription,Deposit,8,Shihab Hossain Rishad,26000,Failed,1/5/2023 6:28,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Diposit page
+4. Account Number
+5. Amount Diposit
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. 1111
+5. 
+6. 500 Taka Deposit
+7. N/A
+","1. page display
+2. Dashboard display
+3. Diposit page will display
+4. System Allow Input
+5. 
+6. System Allow Input
+7. System will Show an Error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed
+6. Failed
+7. Failed
+",failed for ammount and discription,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+45,Deposit Invalid for Account Number,Deposit,8,Shihab Hossain Rishad,39000,Failed,1/5/2023 6:29,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Diposit page
+4. Account Number
+5. Amount Diposit
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. SSFFHFXGFX@#$%
+5. 500
+6. 500 Taka Deposit
+7. N/A
+","1. page display
+2. Dashboard display
+3. Diposit page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System will Show an Error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Passed
+6. Passed
+7. Failed
+",failed for account number,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+46,Deposit Invalid for Account Number and Driscription,Deposit,8,Shihab Hossain Rishad,5999,Skipped,1/5/2023 6:29,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Diposit page
+4. Account Number
+5. Amount Diposit
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. SSFFHFXGFX@#$%
+5. 500
+6. 200 Taka Deposit
+7. N/A
+","1. page display
+2. Dashboard display
+3. Diposit page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System will Show an Error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+47,Deposit Invalid for Account Number and Amount,Deposit,8,Shihab Hossain Rishad,1818,Skipped,1/5/2023 6:29,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Diposit page
+4. Account Number
+5. Amount Diposit
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. SSFFHFXGFX@#$%
+5. 
+6. 500 Taka Deposit
+7. N/A
+","1. page display
+2. Dashboard display
+3. Diposit page will display
+4. System Allow Input
+5. 
+6. System Allow Input
+7. System will Show an Error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+48,Deposit Invalid for Account Number and Amount and Driscription,Deposit,8,Shihab Hossain Rishad,8647,Skipped,1/5/2023 6:30,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Diposit page
+4. Account Number
+5. Amount Diposit
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. SSFFHFXGFX@#$%
+5. 
+6. 200 Taka Deposit
+7. N/A
+","1. page display
+2. Dashboard display
+3. Diposit page will display
+4. System Allow Input
+5. 
+6. System Allow Input
+7. System will Show an Error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+49,Deposit  Reset,Deposit,8,Shihab Hossain Rishad,1334,Passed,1/5/2023 6:30,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Diposit page
+4. Account Number
+5. Amount Diposit
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. 1111
+5. 500
+6. Five Hundred Taka Deposit
+7. N/A
+","1. page display
+2. Dashboard display
+3. Diposit page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System will Reset
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+50,Withdrawal for all valid,Withdrawal,9,Shihab Hossain Rishad,20594,Passed,1/5/2023 6:30,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Withdrawal page
+4. Account Number
+5. Amount Withdrawal
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. 1111
+5. 500
+6. Five Hundred Taka Withdrawal
+7. N/A
+","1. page display
+2. Dashboard display
+3. Withdrawal page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System will Withdrawal money
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+51,Withdrawal Invalid for manager,Withdrawal,9,Shihab Hossain Rishad,39000,Failed,1/5/2023 6:31,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Withdrawal page
+4. Account Number
+5. Amount Withdrawal
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. 
+3. N/A
+4. 1111
+5. 500
+6. Five Hundred Taka Withdrawal
+7. N/A
+","1. page display
+2. 
+3. Withdrawal page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System will not Accept for manager Invalid
+","1. Passed
+2. Failed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Failed
+",failed for manager,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+52,Withdrawal Invalid for Discription,Withdrawal,9,Shihab Hossain Rishad,12000,Failed,1/5/2023 6:32,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Withdrawal page
+4. Account Number
+5. Amount Diposit
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. 1111
+5. 500
+6. 200 Taka Withdrawal
+7. N/A
+","1. page display
+2. Dashboard display
+3. Withdrawal page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System will Show an Error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Failed
+7. Failed
+",failed for discription,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+53,Withdrawal Invalid for Amount,Withdrawal,9,Shihab Hossain Rishad,5593,Skipped,1/5/2023 6:32,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Withdrawal page
+4. Account Number
+5. Amount Withdrawal
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. 1111
+5. 
+6. 500 Taka Withdrawal
+7. N/A
+","1. page display
+2. Dashboard display
+3. Withdrawal page will display
+4. System Allow Input
+5. 
+6. System Allow Input
+7. System will Show an Error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+54,Withdrawal Invalid for Amount and Driscription,Withdrawal,9,Shihab Hossain Rishad,8904,Skipped,1/5/2023 6:32,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Withdrawal page
+4. Account Number
+5. Amount Withdrawal
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. 1111
+5. 
+6. 500 Taka Withdrawal
+7. N/A
+","1. page display
+2. Dashboard display
+3. Withdrawal page will display
+4. System Allow Input
+5. 
+6. System Allow Input
+7. System will Show an Error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+55,Withdrawal Invalid for Account Number,Withdrawal,9,Shihab Hossain Rishad,1354,Skipped,1/5/2023 6:32,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Withdrawal page
+4. Account Number
+5. Amount Withdrawal
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. SSFFHFXGFX@#$%
+5. 500
+6. 500 Taka Withdrawal
+7. N/A
+","1. page display
+2. Dashboard display
+3. Withdrawal page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System will Show an Error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+56,Withdrawal Invalid for Account Number and Driscription,Withdrawal,9,Shihab Hossain Rishad,27000,Failed,1/5/2023 6:33,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Withdrawal page
+4. Account Number
+5. Amount Withdrawal
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. SSFFHFXGFX@#$%
+5. 500
+6. 200 Taka Withdrawal
+7. N/A
+","1. page display
+2. Dashboard display
+3. Withdrawal page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System will Show an Error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Passed
+6. Failed
+7. Failed
+",failed for account no and discription,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+57,Withdrawal Invalid for Account Number and Amount,Withdrawal,9,Shihab Hossain Rishad,17000,Failed,1/5/2023 6:35,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Withdrawal page
+4. Account Number
+5. Amount Withdrawal
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. SSFFHFXGFX@#$%
+5. 
+6. 500 Taka Withdrawal
+7. N/A
+","1. page display
+2. Dashboard display
+3. Withdrawal page will display
+4. System Allow Input
+5. 
+6. System Allow Input
+7. System will Show an Error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Failed
+6. Passed
+7. Failed
+",failed for account no and discription,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+58,Withdrawal Invalid for Account Number and Amount and Driscription,Withdrawal,9,Shihab Hossain Rishad,172000,Failed,1/5/2023 6:39,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Withdrawal page
+4. Account Number
+5. Amount Withdrawal
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. SSFFHFXGFX@#$%
+5. 
+6. 200 Taka Withdrawal
+7. N/A
+","1. page display
+2. Dashboard display
+3. Withdrawal page will display
+4. System Allow Input
+5. 
+6. System Allow Input
+7. System will Show an Error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Failed
+6. Failed
+7. Failed
+","failed for account no, amount, and discription",High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+59,Withdrawal  Reset,Withdrawal,9,Shihab Hossain Rishad,2997,Passed,1/5/2023 6:39,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Withdrawal page
+4. Account Number
+5. Amount Withdrawal
+6. Discription
+7. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id-1111 , pass 1478
+3. N/A
+4. 1111
+5. 500
+6. Five Hundred Taka Withdrawal
+7. N/A
+","1. page display
+2. Dashboard display
+3. Withdrawal page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System will Reset
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+60,Fund Transfer for All valid,Fund Transfer,10,Shihab Hossain Rishad,57096,Passed,1/5/2023 6:40,"1. Go to GTPL login Page
+2. Manager
+3. Go to Fund transfer
+4. Enter Payers Account Number
+5. Enter Payees Account Number
+6. Enter Amount
+7. Enter Discription
+8. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. 11111
+5. 22222
+6. 500
+7. Five Hundred Taka Only
+8. N/A
+","1. page will login
+2. Dashboard Display
+3. Fund Transfer Page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System Allow Input
+8. System will Successfully Transfer the Fund
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+61,Fund Transfer Invalid for Blank Data,Fund Transfer,10,Shihab Hossain Rishad,3000,Failed,1/5/2023 6:41,"1. Go to GTPL login Page
+2. Manager
+3. Go to Fund transfer
+4. Enter Payers Account Number
+5. Enter Payees Account Number
+6. Enter Amount
+7. Enter Discription
+8. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. 
+5. 
+6. 
+7. 
+8. N/A
+","1. page will login
+2. Dashboard Display
+3. Fund Transfer Page will display
+4. 
+5. 
+6. 
+7. 
+8. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+",failed for blank data,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+62,Fund Transfer Invalid for ammount,Fund Transfer,10,Shihab Hossain Rishad,83000,Failed,1/5/2023 6:42,"1. Go to GTPL login Page
+2. Manager
+3. Go to Fund transfer
+4. Enter Payers Account Number
+5. Enter Payees Account Number
+6. Enter Amount
+7. Enter Discription
+8. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. 11111
+5. 22222
+6. 400
+7. Five Hundred Taka Only
+8. N/A
+","1. page will login
+2. Dashboard Display
+3. Fund Transfer Page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System Allow Input
+8. System will show an error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Failed
+7. Passed
+8. Failed
+",failed for amount,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+63,Fund Transfer Invalid for payee account and discription,Fund Transfer,10,Shihab Hossain Rishad,12017,Skipped,1/5/2023 6:43,"1. Go to GTPL login Page
+2. Manager
+3. Go to Fund transfer
+4. Enter Payers Account Number
+5. Enter Payees Account Number
+6. Enter Amount
+7. Enter Discription
+8. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. 11111
+5. ASDFFGGEDS@#$%^^
+6. 500
+7. 
+8. N/A
+","1. page will login
+2. Dashboard Display
+3. Fund Transfer Page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System Allow Input
+8. System will show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+64,Fund Transfer Invalid for payee account and Amount,Fund Transfer,10,Shihab Hossain Rishad,1037,Skipped,1/5/2023 6:43,"1. Go to GTPL login Page
+2. Manager
+3. Go to Fund transfer
+4. Enter Payers Account Number
+5. Enter Payees Account Number
+6. Enter Amount
+7. Enter Discription
+8. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. 11111
+5. ASDFFGGEDS@#$%^^
+6. 400 GGEDS@#$%^^
+7. Five Hundred Taka Only
+8. N/A
+","1. page will login
+2. Dashboard Display
+3. Fund Transfer Page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System Allow Input
+8. System will show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+65,Fund Transfer Invalid for payers account and Discription,Fund Transfer,10,Shihab Hossain Rishad,1420,Skipped,1/5/2023 6:43,"1. Go to GTPL login Page
+2. Manager
+3. Go to Fund transfer
+4. Enter Payers Account Number
+5. Enter Payees Account Number
+6. Enter Amount
+7. Enter Discription
+8. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. ASDFFGGEDS@#$%^^
+5. 22222
+6. 500
+7. 
+8. N/A
+","1. page will login
+2. Dashboard Display
+3. Fund Transfer Page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System Allow Input
+8. System will show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+66,Fund Transfer Invalid for payers account and Amount,Fund Transfer,10,Shihab Hossain Rishad,1498,Skipped,1/5/2023 6:43,"1. Go to GTPL login Page
+2. Manager
+3. Go to Fund transfer
+4. Enter Payers Account Number
+5. Enter Payees Account Number
+6. Enter Amount
+7. Enter Discription
+8. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. ASDFFGGEDS@#$%^^
+5. 22222
+6. 400 GGEDS@#$%^^
+7. Five Hundred Taka Only
+8. N/A
+","1. page will login
+2. Dashboard Display
+3. Fund Transfer Page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System Allow Input
+8. System will show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+67,Fund Transfer Invalid for payers account and Payee Account and Discription,Fund Transfer,10,Shihab Hossain Rishad,16539,Skipped,1/5/2023 6:43,"1. Go to GTPL login Page
+2. Manager
+3. Go to Fund transfer
+4. Enter Payers Account Number
+5. Enter Payees Account Number
+6. Enter Amount
+7. Enter Discription
+8. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. ASDFFGGEDS@#$%^^
+5. ASDFFGGEDS@#$%^^
+6. 500
+7. 
+8. N/A
+","1. page will login
+2. Dashboard Display
+3. Fund Transfer Page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System Allow Input
+8. System will show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+68,Fund Transfer Invalid for payers account and Payee Account and Discription and Amount,Fund Transfer,10,Shihab Hossain Rishad,43000,Invalid,1/5/2023 6:44,"1. Go to GTPL login Page
+2. Manager
+3. Go to Fund transfer
+4. Enter Payers Account Number
+5. Enter Payees Account Number
+6. Enter Amount
+7. Enter Discription
+8. Enter Submit
+","1. http//www.gtpl.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. ASDFFGGEDS@#$%^^
+5. ASDFFGGEDS@#$%^^
+6. ASDFFGGEDS@#$%^^
+7. 
+8. N/A
+","1. page will login
+2. Dashboard Display
+3. Fund Transfer Page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System Allow Input
+8. System will show an error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Failed
+6. Failed
+7. Failed
+8. Failed
+",failed for invalid data,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+69,Fund Transfer  Reset,Fund Transfer,10,Shihab Hossain Rishad,7592,Passed,1/5/2023 6:45,"1. Go to GTPL login Page
+2. Manager
+3. Go to Fund transfer
+4. Enter Payers Account Number
+5. Enter Payees Account Number
+6. Enter Amount
+7. Enter Discription
+8. Enter Reset
+","1. http//www.gtpl.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. 11111
+5. 22222
+6. 500
+7. Five Hundred Taka Only
+8. N/A
+","1. page will login
+2. Dashboard Display
+3. Fund Transfer Page will display
+4. System Allow Input
+5. System Allow Input
+6. System Allow Input
+7. System Allow Input
+8. System will Successfully Reset all data
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+70,Change Password for All Valid,Change Password,11,Shihab Hossain Rishad,213066,Passed,1/5/2023 6:48,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Change Password
+4. Enter Old Password
+5. Enter New password
+6. Enter Confirm Password
+7. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. aabbcc11#
+5. abc22@@
+6. abc22@@
+7. N/A
+","1. login page will show
+2. Dashboard Display
+3. Change Password page will display
+4. system allow input
+5. system allow input
+6. system allow input
+7. System will successfully Change Password
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+71,Change Password  invalid for Confirm Password,Change Password,11,Shihab Hossain Rishad,28000,Failed,1/5/2023 6:49,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Change Password
+4. Enter Old Password
+5. Enter New password
+6. Enter Confirm Password
+7. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. aabbcc11#
+5. abc22@@
+6. aaaaa
+7. N/A
+","1. login page will show
+2. Dashboard Display
+3. Change Password page will display
+4. system allow input
+5. system allow input
+6. system allow input
+7. System will Show an error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Failed
+7. Failed
+",failed for confirm password,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+72,Change Password  invalid for New Password,Change Password,11,Shihab Hossain Rishad,141829,Skipped,1/5/2023 6:52,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Change Password
+4. Enter Old Password
+5. Enter New password
+6. Enter Confirm Password
+7. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. aabbcc11#
+5. aaaaa
+6. aabc22@@
+7. N/A
+","1. login page will show
+2. Dashboard Display
+3. Change Password page will display
+4. system allow input
+5. system allow input
+6. system allow input
+7. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+73,Change Password  invalid for New Password and Confirm Password,Change Password,11,Shihab Hossain Rishad,7869,Skipped,1/5/2023 6:52,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Change Password
+4. Enter Old Password
+5. Enter New password
+6. Enter Confirm Password
+7. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. aabbcc11#
+5. aaa#
+6. aaa#
+7. N/A
+","1. login page will show
+2. Dashboard Display
+3. Change Password page will display
+4. system allow input
+5. system allow input
+6. system allow input
+7. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+74,Change Password  invalid for Old Password,Change Password,11,Shihab Hossain Rishad,21000,Failed,1/5/2023 6:53,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Change Password
+4. Enter Old Password
+5. Enter New password
+6. Enter Confirm Password
+7. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. aabbcc#
+5. aabc22@@
+6. aabc22@@
+7. N/A
+","1. login page will show
+2. Dashboard Display
+3. Change Password page will display
+4. system allow input
+5. system allow input
+6. system allow input
+7. System will Show an error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Passed
+6. Passed
+7. Failed
+",failed for old password,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+75,Change Password  invalid for Old Password and Confirm Password,Change Password,11,Shihab Hossain Rishad,6353,Skipped,1/5/2023 6:53,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Change Password
+4. Enter Old Password
+5. Enter New password
+6. Enter Confirm Password
+7. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. aabbcc#
+5. aabc22@@
+6. abc@
+7. N/A
+","1. login page will show
+2. Dashboard Display
+3. Change Password page will display
+4. system allow input
+5. system allow input
+6. system allow input
+7. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+76,Change Password  invalid for Old Password and New Password,Change Password,11,Shihab Hossain Rishad,1366,Skipped,1/5/2023 6:53,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Change Password
+4. Enter Old Password
+5. Enter New password
+6. Enter Confirm Password
+7. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. aabbcc#
+5. abc@
+6. aabc22@@
+7. N/A
+","1. login page will show
+2. Dashboard Display
+3. Change Password page will display
+4. system allow input
+5. system allow input
+6. system allow input
+7. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+77,Change Password  invalid for Old Password and New Password and confirm Password,Change Password,11,Shihab Hossain Rishad,1607,Skipped,1/5/2023 6:53,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Change Password
+4. Enter Old Password
+5. Enter New password
+6. Enter Confirm Password
+7. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. aabbcc#
+5. abc@
+6. aaa$$
+7. N/A
+","1. login page will show
+2. Dashboard Display
+3. Change Password page will display
+4. system allow input
+5. system allow input
+6. system allow input
+7. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+78,Change Password  invalid for Blank Data,Change Password,11,Shihab Hossain Rishad,3000,Invalid,1/5/2023 6:53,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Change Password
+4. Enter Old Password
+5. Enter New password
+6. Enter Confirm Password
+7. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. 
+5. 
+6. 
+7. N/A
+","1. login page will show
+2. Dashboard Display
+3. Change Password page will display
+4. 
+5. 
+6. 
+7. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",invalid for blank data,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+79,Change Password  Reset,Change Password,11,Shihab Hossain Rishad,2635,Passed,1/5/2023 6:53,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Change Password
+4. Enter Old Password
+5. Enter New password
+6. Enter Confirm Password
+7. Enter Reset
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. aabbcc11#
+5. abc22@@
+6. abc22@@
+7. N/A
+","1. login page will show
+2. Dashboard Display
+3. Change Password page will display
+4. system allow input
+5. system allow input
+6. system allow input
+7. System will successfully Reset all data
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+80,Balance Enquiry for valid,Balance Enquiry,12,Shihab Hossain Rishad,11489,Passed,1/5/2023 6:54,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Balance enquiry page
+4. Account Number
+5. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. 1234
+5. N/A
+","1. login page will show
+2. Dashboard Display
+3. Balance enquiry page will display
+4. System will allow
+5. System will successfully show the balance enquiry
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+81,Balance Enquiry Invalid for Blank Data,Balance Enquiry,12,Shihab Hossain Rishad,3000,Failed,1/5/2023 6:54,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Balance enquiry page
+4. Account Number
+5. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. 
+5. N/A
+","1. login page will show
+2. Dashboard Display
+3. Balance enquiry page will display
+4. System will allow
+5. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+",failed for blank data,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+82,Balance Enquiry Invalid for Special Character,Balance Enquiry,12,Shihab Hossain Rishad,5902,Skipped,1/5/2023 6:54,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Balance enquiry page
+4. Account Number
+5. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. 1234@@
+5. N/A
+","1. login page will show
+2. Dashboard Display
+3. Balance enquiry page will display
+4. System will allow
+5. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+83,Balance Enquiry Invalid for Character,Balance Enquiry,12,Shihab Hossain Rishad,17000,Failed,1/5/2023 6:55,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Balance enquiry page
+4. Account Number
+5. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. 1234abcd
+5. N/A
+","1. login page will show
+2. Dashboard Display
+3. Balance enquiry page will display
+4. System will allow
+5. System will Show an error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Failed
+",failed for character,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+84,Balance Enquiry  Reset,Balance Enquiry,12,Shihab Hossain Rishad,2066,Passed,1/5/2023 6:55,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Balance enquiry page
+4. Account Number
+5. Enter Reset
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. 1234
+5. N/A
+","1. login page will show
+2. Dashboard Display
+3. Balance enquiry page will display
+4. System will allow
+5. System will successfully Reset all Data
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+85,Mini Statement for valid,Mini Statement,13,Shihab Hossain Rishad,7298,Passed,1/5/2023 6:55,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Mini Statement page
+4. Account Number
+5. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. 1234
+5. N/A
+","1. login page will show
+2. Dashboard Display
+3. Mini Statement page will display
+4. System will allow
+5. System will successfully show the Mini Statement
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+86,Mini Statement Invalid for Blank Data,Mini Statement,13,Shihab Hossain Rishad,1000,Failed,1/5/2023 6:55,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Mini Statement page
+4. Account Number
+5. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. 
+5. N/A
+","1. login page will show
+2. Dashboard Display
+3. Mini Statement page will display
+4. System will allow
+5. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+",failed for blank data,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+87,Mini Statement Invalid for Special Character,Mini Statement,13,Shihab Hossain Rishad,13000,Failed,1/5/2023 6:56,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Mini Statement page
+4. Account Number
+5. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. 1234@@
+5. N/A
+","1. login page will show
+2. Dashboard Display
+3. Mini Statement page will display
+4. System will allow
+5. System will Show an error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Failed
+",failed for special charecrter,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+88,Mini Statement Invalid for Character,Mini Statement,13,Shihab Hossain Rishad,82888,Skipped,1/5/2023 6:57,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Mini Statement page
+4. Account Number
+5. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. 1234abcd
+5. N/A
+","1. login page will show
+2. Dashboard Display
+3. Mini Statement page will display
+4. System will allow
+5. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+89,Mini Statement  Reset,Mini Statement,13,Shihab Hossain Rishad,3576,Passed,1/5/2023 6:57,"1. Go to GTPL Bank Login page
+2. Manager
+3. Go to Mini Statement page
+4. Account Number
+5. Enter Reset
+","1. http//www.gtplbank.com/login
+2. Manager id- 1111 , pass - 1478
+3. N/A
+4. 1234
+5. N/A
+","1. login page will show
+2. Dashboard Display
+3. Mini Statement page will display
+4. System will allow
+5. System will successfully Reset all Data
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+90,Customized Statement for all valid,Customized Statement,14,Shihab Hossain Rishad,8899,Passed,1/5/2023 6:58,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Customized Statement page
+4. Enter Account Number
+5. From date
+6. To date
+7. Minimum Transaction Value
+8. Number Of Transaction
+9. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id - 1111, pass - 1478
+3. N/A
+4. 1111
+5. 01/01/2023
+6. 10/01/2023
+7. 500
+8. 1
+9. N/A
+","1. Login page will display
+2. Dashboard Display
+3. Customized Statement page will display
+4. System allow input
+5. System allow input
+6. System allow input
+7. System allow input
+8. System allow input
+9. System will successfully Customized the Statement
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+91,Customized Statement Invalid for To Date and Number of Transaction,Customized Statement,14,Shihab Hossain Rishad,12063,Skipped,1/5/2023 6:58,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Customized Statement page
+4. Enter Account Number
+5. From date
+6. To date
+7. Minimum Transaction Value
+8. Number Of Transaction
+9. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id - 1111, pass - 1478
+3. N/A
+4. 1111
+5. 10/01/2023
+6. 01/01/2023
+7. 500
+8. @@abc
+9. N/A
+","1. Login page will display
+2. Dashboard Display
+3. Customized Statement page will display
+4. System allow input
+5. System allow input
+6. System allow input
+7. System allow input
+8. System allow input
+9. System will show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+92,Customized Statement Invalid for From Date and Minimum Transaction,Customized Statement,14,Shihab Hossain Rishad,1006,Skipped,1/5/2023 6:58,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Customized Statement page
+4. Enter Account Number
+5. From date
+6. To date
+7. Minimum Transaction Value
+8. Number Of Transaction
+9. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id - 1111, pass - 1478
+3. N/A
+4. 1111
+5. 10/01/2023
+6. 01/01/2023
+7. -1 @@
+8. 1
+9. N/A
+","1. Login page will display
+2. Dashboard Display
+3. Customized Statement page will display
+4. System allow input
+5. System allow input
+6. System allow input
+7. System allow input
+8. System allow input
+9. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+93,Customized Statement Invalid for From Date and To Date and Number of Transaction,Customized Statement,14,Shihab Hossain Rishad,1063,Skipped,1/5/2023 6:58,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Customized Statement page
+4. Enter Account Number
+5. From date
+6. To date
+7. Minimum Transaction Value
+8. Number Of Transaction
+9. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id - 1111, pass - 1478
+3. N/A
+4. 1111
+5. 10/01/2023
+6. 01/01/2023
+7. 500
+8. -00 ##
+9. N/A
+","1. Login page will display
+2. Dashboard Display
+3. Customized Statement page will display
+4. System allow input
+5. System allow input
+6. System allow input
+7. System allow input
+8. System allow input
+9. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+94,Customized Statement Invalid for Account Number and Minimum Transaction,Customized Statement,14,Shihab Hossain Rishad,938,Skipped,1/5/2023 6:58,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Customized Statement page
+4. Enter Account Number
+5. From date
+6. To date
+7. Minimum Transaction Value
+8. Number Of Transaction
+9. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id - 1111, pass - 1478
+3. N/A
+4. abcd@#$%^
+5. 01/01/2023
+6. 10/01/2023
+7. -00@@
+8. 1
+9. N/A
+","1. Login page will display
+2. Dashboard Display
+3. Customized Statement page will display
+4. System allow input
+5. System allow input
+6. System allow input
+7. System allow input
+8. System allow input
+9. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+95,Customized Statement Invalid for Account Number and Number of Transaction and To Date,Customized Statement,14,Shihab Hossain Rishad,3014,Skipped,1/5/2023 6:58,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Customized Statement page
+4. Enter Account Number
+5. From date
+6. To date
+7. Minimum Transaction Value
+8. Number Of Transaction
+9. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id - 1111, pass - 1478
+3. N/A
+4. abcd@#$%^
+5. 01/01/2023
+6. 01/01/2023
+7. 500
+8. -00@@
+9. N/A
+","1. Login page will display
+2. Dashboard Display
+3. Customized Statement page will display
+4. System allow input
+5. System allow input
+6. System allow input
+7. System allow input
+8. System allow input
+9. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+96,Customized Statement Invalid for Account Number and Minimum Transaction and From Date,Customized Statement,14,Shihab Hossain Rishad,1149,Skipped,1/5/2023 6:58,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Customized Statement page
+4. Enter Account Number
+5. From date
+6. To date
+7. Minimum Transaction Value
+8. Number Of Transaction
+9. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id - 1111, pass - 1478
+3. N/A
+4. abcd@#$%^
+5. 10/01/2023
+6. 01/01/2023
+7. -00@@
+8. 1
+9. N/A
+","1. Login page will display
+2. Dashboard Display
+3. Customized Statement page will display
+4. System allow input
+5. System allow input
+6. System allow input
+7. System allow input
+8. System allow input
+9. System will Show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+97,Customized Statement Invalid for Account Number and Minimum Transaction and From Date and To Date and Numner of Transaction,Customized Statement,14,Shihab Hossain Rishad,41000,Invalid,1/5/2023 7:00,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Customized Statement page
+4. Enter Account Number
+5. From date
+6. To date
+7. Minimum Transaction Value
+8. Number Of Transaction
+9. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id - 1111, pass - 1478
+3. N/A
+4. abcd@#$%^
+5. 10/01/2023
+6. 01/01/2023
+7. -00@@
+8. -abc##@@
+9. N/A
+","1. Login page will display
+2. Dashboard Display
+3. Customized Statement page will display
+4. System allow input
+5. System allow input
+6. System allow input
+7. System allow input
+8. System allow input
+9. System will Show an error massage
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Failed
+6. Failed
+7. Failed
+8. Failed
+9. Failed
+",Invalid for all data,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+98,Customized Statement Invalid for Blank Data,Customized Statement,14,Shihab Hossain Rishad,3000,Failed,1/5/2023 7:00,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Customized Statement page
+4. Enter Account Number
+5. From date
+6. To date
+7. Minimum Transaction Value
+8. Number Of Transaction
+9. Enter Submit
+","1. http//www.gtplbank.com/login
+2. Manager id - 1111, pass - 1478
+3. N/A
+4. 
+5. 
+6. 
+7. 
+8. 
+9. N/A
+","1. Login page will display
+2. Dashboard Display
+3. Customized Statement page will display
+4. 
+5. 
+6. 
+7. 
+8. 
+9. System will successfully Customized the Statement
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+",failed for blank data,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+99,Customized Statement   Reset,Customized Statement,14,Shihab Hossain Rishad,3823,Passed,1/5/2023 7:00,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Customized Statement page
+4. Enter Account Number
+5. From date
+6. To date
+7. Minimum Transaction Value
+8. Number Of Transaction
+9. Enter Reset
+","1. http//www.gtplbank.com/login
+2. Manager id - 1111, pass - 1478
+3. N/A
+4. 1111
+5. 01/01/2023
+6. 10/01/2023
+7. 500
+8. 1
+9. N/A
+","1. Login page will display
+2. Dashboard Display
+3. Customized Statement page will display
+4. System allow input
+5. System allow input
+6. System allow input
+7. System allow input
+8. System allow input
+9. System will successfully Reset all data
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+100,Edit account all valid,Edit Account,15,Shihab Hossain Rishad,5832,Passed,1/5/2023 7:00,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Edit Account page
+4. Enter Account number
+5. Enter Submit
+","1. http//gtplbank.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. 1111
+5. N/A
+","1. login page will display
+2. Dashboard display
+3. Edit Account page will display
+4. System allow input
+5. System will successfully Enter edit account page
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+101,Edit account invalid,Edit Account,15,Shihab Hossain Rishad,7000,Invalid,1/5/2023 7:01,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Edit Account page
+4. Enter Account number
+5. Enter Submit
+","1. http//gtplbank.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. abcD@#$%
+5. N/A
+","1. login page will display
+2. Dashboard display
+3. Edit Account page will display
+4. System allow input
+5. System will show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+",invalid for all data,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+102,Edit account invalid for blank data,Edit Account,15,Shihab Hossain Rishad,4000,Failed,1/5/2023 7:01,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Edit Account page
+4. Enter Account number
+5. Enter Submit
+","1. http//gtplbank.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. 
+5. N/A
+","1. login page will display
+2. Dashboard display
+3. Edit Account page will display
+4. System allow input
+5. System will show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+",failed for blank data,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+103,Edit account invalid for Special Character and character,Edit Account,15,Shihab Hossain Rishad,2479,Skipped,1/5/2023 7:01,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Edit Account page
+4. Enter Account number
+5. Enter Submit
+","1. http//gtplbank.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. abcD @#$%^
+5. N/A
+","1. login page will display
+2. Dashboard display
+3. Edit Account page will display
+4. System allow input
+5. System will show an error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+104,Edit account Reset,Edit Account,15,Shihab Hossain Rishad,1755,Passed,1/5/2023 7:01,"1. Go to GTPL Bank login page
+2. Manager
+3. Go to Edit Account page
+4. Enter Account number
+5. Enter Reset
+","1. http//gtplbank.com/login
+2. manager id -1111 , pass - 1478
+3. N/A
+4. 1111
+5. N/A
+","1. login page will display
+2. Dashboard display
+3. Edit Account page will display
+4. System allow input
+5. System will successfully reset data
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+105,Form after submitting Edit Account Reset,Edit Account,15,Shihab Hossain Rishad,18461,Passed,1/5/2023 7:02,"1. Customer ID
+2. Account Type
+3. Balance
+4. Enter Reset
+","1. N/A
+2. Savings
+3. N/A
+4. N/A
+","1. N/A
+2. System allow input
+3. N/A
+4. System will Reset all data
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+",,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. ",
+106,Form after submitting Edit Account ( Invalid Savings),Edit Account,15,Shihab Hossain Rishad,6000,Invalid,1/5/2023 7:02,"1. Customer ID
+2. Account Type
+3. Balance
+4. Enter submit
+","1. N/A
+2. Current
+3. N/A
+4. N/A
+","1. N/A
+2. System allow input
+3. N/A
+4. System will show error massage
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+",invalid for savings,High,Major,To be automated,Functional,,"1. 
+2. 
+3. 
+4. ",
